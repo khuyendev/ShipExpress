@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shipexpress.shipexpress.Shop.ItemOnprogressFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/scrollViewShop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                tools:context="com.shipexpress.shipexpress.Shop.DirectionShopActivity">
+                <!-- TODO: Update blank fragment layout -->
+                <fragment
+                    android:id="@+id/mapDirectionShop"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    class="com.shipexpress.shipexpress.Utility.MapScrollViewSupport"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" />
+            </FrameLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frame">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/lb2"
+                    android:layout_below="@+id/lb"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:text="Gọi khách"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnOnprogress2"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                         />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gọi shipper"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                       />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/lb"
+                    android:orientation="horizontal"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <Button
+                        android:text="Nhận tiền cọc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnOnprogress"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                         />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

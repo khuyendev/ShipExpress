@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true">
+
+
+    -
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_selector">
+
+        <TextView
+            android:id="@+id/txtNameOrderShip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Áo Sport"
+            android:textColor="#ff0008"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNameOrderShip"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:text="Từ " />
+
+        <TextView
+            android:id="@+id/tvToAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAddress"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:text="Đến" />
+
+        <TextView
+            android:id="@+id/txtToAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAddress"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="25dp"
+            android:layout_toRightOf="@+id/tvToAddress"
+            android:padding="5dp"
+            android:text="137 Nguyễn Thị Thập , Hòa Minh, Đà Nẵng" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtToAddress"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:text="Giá tiền" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvPrice"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/tvPrice"
+            card_view:srcCompat="@drawable/ic_distance" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="0128793"
+            android:layout_below="@+id/txtToAddress"
+            android:layout_alignLeft="@+id/txtAddress"
+            android:layout_alignStart="@+id/txtAddress" />
+
+        <TextView
+            android:id="@+id/tvfreight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Phí ship"
+            android:layout_below="@+id/txtToAddress"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="-- km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDuration"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tvToAddress"
+            android:layout_toEndOf="@+id/tvToAddress" />
+
+        <TextView
+            android:id="@+id/txtfreight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="93000"
+            android:layout_alignBaseline="@+id/tvfreight"
+            android:layout_alignBottom="@+id/tvfreight"
+            android:layout_toRightOf="@+id/tvfreight"
+            android:layout_toEndOf="@+id/tvfreight" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="137 Nguyễn Thị Thập , Hòa Minh, Đà Nẵng"
+            android:layout_below="@+id/txtNameOrderShip"
+            android:layout_alignLeft="@+id/txtToAddress"
+            android:layout_alignStart="@+id/txtToAddress" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

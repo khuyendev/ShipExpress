@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "577625500680",
+    "firebase_url": "https://shipdn-59257.firebaseio.com",
+    "project_id": "shipdn-59257",
+    "storage_bucket": "shipdn-59257.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577625500680:android:8a6f8059d035bde0",
+        "android_client_info": {
+          "package_name": "com.shipperdn.shipdn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577625500680-vao3qjamdra9re1etcvmd8s1k7uomi49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvERxKmQlfB530pCy6Wdyjae-gr2RwawI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577625500680:android:62df129e525ee71e",
+        "android_client_info": {
+          "package_name": "com.shipexpress.shipexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577625500680-vao3qjamdra9re1etcvmd8s1k7uomi49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvERxKmQlfB530pCy6Wdyjae-gr2RwawI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

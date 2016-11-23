@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">ShipExpress</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Báo cáo sự cố</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_ship">MainShipActivity</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Đang kết nối</string>
+    <string name="dummy_content">SHIP EXPRESS</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_report">Báo sự cố</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="email">Email</string>
+    <string name="minimum_password">Mật khẩu không được dưới 6 ký tự!</string>
+    <string name="auth_failed">Lỗi xác thực, kiểm tra lại thông tin đăng ký</string>
+    <string name="auth_success">Đăng ký thành công</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="re_hint_password">Nhập lại mật khẩu</string>
+    <string name="hint_name">Tên</string>
+    <string name="btn_login">ĐĂNG NHẬP</string>
+    <string name="btn_link_to_register">Đăng ký ngay</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Quên mật khẩu ?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Thay đổi</string>
+    <string name="btn_send">Gửi</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Đăng xuất</string>
+    <string name="lbl_forgot_password">Quên mật khẩu ?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="loading">"Đang lấy thông tin..."</string>
+    <string-array name="list_type_register">
+        <item>Shop</item>
+        <item>Shipper</item>
+    </string-array>
+    <!-- TODO: statusOrder -->
+    <string name="isWatting">isWaitting</string>
+    <string name="isCommit">isCommit</string>
+    <string name="isRejected">isRejected</string>
+    <string name="isSuccess">isSuccess</string>
+    <string name="isCancel">isCancel</string>
+    <string name="isFail">isFail</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+
+    <string name="title_activity_main2">Trang chủ</string>
+    <string name="title_activity_add_order">Thêm đơn hàng</string>
+    <string name="title_activity_register">Đăng ký</string>
+    <string name="title_activity_direction">DirectionActivity</string>
+    <string name="title_activity_direction_shop">DirectionShopActivity</string>
+</resources>

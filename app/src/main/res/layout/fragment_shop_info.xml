@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:orientation="horizontal"
+    tools:context="com.shipexpress.shipexpress.Shop.InforShopFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="Tên cửa hàng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:textColor="#ccc"
+        android:id="@+id/diachikk" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDetail"
+        android:layout_below="@+id/txtPhone"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/phone"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ"
+        android:padding="5dp"
+        android:textColor="#ccc"
+        android:id="@+id/address"
+        android:layout_alignBaseline="@+id/txtAddress"
+        android:layout_alignBottom="@+id/txtAddress"
+        android:layout_alignLeft="@+id/mail"
+        android:layout_alignStart="@+id/mail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điện thoại"
+        android:padding="5dp"
+        android:textColor="#ccc"
+        android:id="@+id/phone"
+        android:layout_alignBaseline="@+id/txtPhone"
+        android:layout_alignBottom="@+id/txtPhone"
+        android:layout_alignLeft="@+id/address"
+        android:layout_alignStart="@+id/address" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chi tiết"
+        android:textColor="#ccc"
+        android:padding="5dp"
+        android:id="@+id/detail"
+        android:layout_alignBaseline="@+id/txtDetail"
+        android:layout_alignBottom="@+id/txtDetail"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_alignStart="@+id/phone" />
+
+
+
+    <TextView
+        android:text="Email:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#ccc"
+        android:id="@+id/mail"
+        android:layout_above="@+id/txtAddress"
+        android:layout_alignLeft="@+id/diachikk"
+        android:layout_alignStart="@+id/diachikk" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPhone"
+        android:padding="5dp"
+        android:layout_below="@+id/txtAddress"
+        android:layout_alignLeft="@+id/txtDetail"
+        android:layout_alignStart="@+id/txtDetail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAddress"
+        android:padding="5dp"
+
+        android:layout_below="@+id/mailShop"
+        android:layout_alignLeft="@+id/txtPhone"
+        android:layout_alignStart="@+id/txtPhone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/mailShop"
+        android:layout_below="@+id/diachikk"
+        android:layout_alignLeft="@+id/txtAddress"
+        android:layout_alignStart="@+id/txtAddress" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_ChangeIfo"
+        android:layout_below="@+id/txtDetail">
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- TODO: Update blank fragment layout -->
+            <fragment
+                android:id="@+id/mapinffo"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                class="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ChangeIfo"
+        android:text="Đổi thông tin"
+        android:background="@drawable/button_radius"
+        android:textColor="#f9f8f8"
+        android:textSize="11sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/nameShop"
+        android:layout_alignBaseline="@+id/diachikk"
+        android:layout_alignBottom="@+id/diachikk"
+        android:layout_alignLeft="@+id/mailShop"
+        android:layout_alignStart="@+id/mailShop" />
+
+
+</RelativeLayout>
